@@ -11,6 +11,8 @@ public class Main {
 //        System.out.println("Another one here");
 
         Zombie z1 = new Zombie("Ugly Bob", "Crawler", 55);
+        Zombie z2 = new Zombie("Little Bobby", "Brain Seeker", 12);
         System.out.println(z1.toString());
+        System.out.println(z2.toString());
     }
 }
