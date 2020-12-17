@@ -12,7 +12,10 @@ public class Main {
 
         Zombie z1 = new Zombie("Ugly Bob", "Crawler", 55);
         Zombie z2 = new Zombie("Little Bobby", "Brain Seeker", 12);
+        Zombie z3 = new Zombie("Pretty Bob", "Zombie Princess", 21);
+
         System.out.println(z1.toString());
         System.out.println(z2.toString());
+        System.out.println(z3.toString());
     }
 }
