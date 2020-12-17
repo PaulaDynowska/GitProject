@@ -15,6 +15,9 @@ public class Main {
 
         Person p1 = new Person("Jake", "Baker", 87);
         System.out.println(p1.toString());
+
+        Car c1 = new Car("Jeep", "Cherokee", 2020);
+        System.out.println(c1);
     }
 
 
