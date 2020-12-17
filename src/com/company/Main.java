@@ -5,9 +5,9 @@ public class Main {
     public static void main(String[] args) {
 
 
-        Zombie z1 = new Zombie("Ugly Bob", "Crawler", 55);
-        Zombie z2 = new Zombie("Little Bobby", "Brain Seeker", 12);
-        Zombie z3 = new Zombie("Pretty Bob", "Zombie Princess", 21);
+        Zombie z1 = new Zombie("Ugly Bob", TypeOFZombie.CRAWLER, 55);
+        Zombie z2 = new Zombie("Little Bobby", TypeOFZombie.BRAIN_SEEKER, 12);
+        Zombie z3 = new Zombie("Pretty Bob", TypeOFZombie.ZOMBIE_PRINCESS, 21);
 
         System.out.println(z1.toString());
         System.out.println(z2.toString());

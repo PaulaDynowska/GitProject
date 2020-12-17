@@ -2,20 +2,14 @@ package com.company;
 
 public class Zombie {
     private String name;
-    private String type;
+    private TypeOFZombie type;
     private int age;
-
-    public Zombie(String name, String type, int age) {
-        this.name = name;
-        this.type = type;
-        this.age = age;
-    }
 
     public String getName() {
         return name;
     }
 
-    public String getType() {
+    public TypeOFZombie getType() {
         return type;
     }
 
@@ -23,8 +17,18 @@ public class Zombie {
         return age;
     }
 
+    public Zombie(String name, TypeOFZombie type, int age) {
+        this.name = name;
+        this.type = type;
+        this.age = age;
+    }
+
     @Override
     public String toString() {
-        return "Name: " + name + " Type: " + type + " Age: " + age;
+        return "Zombie{" +
+                "name='" + name + '\'' +
+                ", type=" + type +
+                ", age=" + age +
+                '}';
     }
 }
