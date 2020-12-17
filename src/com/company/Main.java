@@ -8,6 +8,7 @@ public class Main {
         Zombie z1 = new Zombie("Ugly Bob", TypeOFZombie.CRAWLER, 55);
         Zombie z2 = new Zombie("Little Bobby", TypeOFZombie.BRAIN_SEEKER, 12);
         Zombie z3 = new Zombie("Pretty Bob", TypeOFZombie.ZOMBIE_PRINCESS, 21);
+        Zombie z4 = new Zombie("Dead Bob", TypeOFZombie.DEAD, 99);
 
         System.out.println(z1.toString());
         System.out.println(z2.toString());
