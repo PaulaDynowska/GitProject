@@ -9,6 +9,9 @@ public class Main {
         Zombie z2 = new Zombie("Little Bobby", TypeOFZombie.BRAIN_SEEKER, 12);
         Zombie z3 = new Zombie("Pretty Bob", TypeOFZombie.ZOMBIE_PRINCESS, 21);
         Zombie z4 = new Zombie("Dead Bob", TypeOFZombie.DEAD, 99);
+        Zombie z5 = new Zombie("Helder", TypeOFZombie.DEVELOPER, 39);
+
+        System.out.println(z5);
 
         System.out.println(z1.toString());
         System.out.println(z2.toString());

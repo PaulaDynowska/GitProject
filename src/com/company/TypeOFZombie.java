@@ -5,4 +5,5 @@ public enum TypeOFZombie {
     BRAIN_SEEKER,
     ZOMBIE_PRINCESS,
     DEAD,
+    DEVELOPER,
 }
