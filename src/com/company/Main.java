@@ -7,5 +7,6 @@ public class Main {
         System.out.println("This is kinda magic....");
         System.out.println("bla bla");
         System.out.println("Another one bites the dust....");
+        System.out.println("turururururur");
     }
 }
