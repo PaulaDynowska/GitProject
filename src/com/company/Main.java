@@ -17,5 +17,9 @@ public class Main {
         System.out.println(z1.toString());
         System.out.println(z2.toString());
         System.out.println(z3.toString());
+
+        Person p1 = new Person("Jake", "Baker", 87);
+        System.out.println(p1.toString());
     }
+
 }
